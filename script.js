@@ -50,7 +50,6 @@ function search() {
             document.querySelector("input").value = "";
         } catch (err) {
             content.innerHTML = "<h1 class='message'>Invalid word</h1>";
-            console.error(err);
         }
     }
 

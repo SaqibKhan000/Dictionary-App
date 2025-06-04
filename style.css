@@ -135,3 +135,9 @@ i:active{
     color: rgba(255, 0, 0, 0.651);
     margin-top: 10px;
 }
+
+@media screen and (max-width: 450px) {
+    .box{
+        width: 95%;
+    }
+}
