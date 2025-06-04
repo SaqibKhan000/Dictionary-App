@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="top">
+            <input type="text" required placeholder="Type the word here">
+            <button onclick="search();">Search</button>
+        </div>
+
+
+
+        <div class="content">
+            <div class="word-details">
+                <div>
+                    <h1></h1>
+                    <div class="grammar">
+                        <p id="speech"></p>
+                        <p id="phonetic"></p>
+                    </div>
+                </div>
+
+                <div>
+                    <i class="ri-volume-up-line"></i>
+                </div>
+            </div><!--word-details-->
+
+
+            <div class="def">
+                <p id="definition"></p>
+            </div>
+
+
+            <div class="exm">
+                <p id="example"></p>
+            </div>
+        </div>
+    </div><!--box-end-->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
